@@ -1,4 +1,4 @@
-# Dietas API
+# Gerador de Dietas API
 
 API para geração de planos de dieta personalizados com integração à plataforma **Groq** (IA). A aplicação gera dietas de 7 dias com 3 refeições por dia (café da manhã, almoço e jantar), com base em dados do usuário.
 
