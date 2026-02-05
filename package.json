@@ -1,0 +1,27 @@
+{
+  "name": "dietas-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": {
+    "email": "joseguilhermesorio@gmail.com",
+    "name": "José Guilherme"
+  },
+  "license": "ISC",
+  "description": "API para gerenciamento de dietas com integração com a plataforma Groq para inteligência artificial",
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "dotenv": "^17.2.3",
+    "fastify": "^5.7.4",
+    "groq-sdk": "^0.37.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
